@@ -51,12 +51,6 @@ Berikut adalah 5 proyek utama yang telah saya kembangkan untuk mengasah kemampua
 
 ---
 
-## 📈 Statistik GitHub
-![Statistik GitHub Hammam](https://github-readme-stats.vercel.app/api?username=hammam09&show_icons=true&theme=radial)
-![Bahasa Utama](https://github-readme-stats.vercel.app/api/top-langs/?username=hammam09&layout=compact&theme=radial)
-
----
-
 ## 🤝 Hubungi Saya & Kolaborasi
 
 Saya sangat terbuka untuk peluang kerja full-time, kontrak, maupun proyek freelance, khususnya di bidang Frontend Development. Mari terhubung dan diskusikan bagaimana saya dapat membantu tim Anda!
