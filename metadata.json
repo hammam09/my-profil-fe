@@ -1,0 +1,6 @@
+{
+  "name": "Hammam Portfolio",
+  "description": "Portofolio profesional dan profil web developer interaktif milik Hammam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
