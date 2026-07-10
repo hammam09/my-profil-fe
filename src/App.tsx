@@ -117,9 +117,6 @@ export default function App() {
       <header id="app-header" className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200/60">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-indigo-500 flex items-center justify-center text-white font-bold shadow-md shadow-indigo-200">
-              H
-            </div>
             <div>
               <span className="font-bold text-slate-900 tracking-tight text-base block">Hammam</span>
               <span className="text-xs text-indigo-600 font-semibold block -mt-0.5">Web Developer</span>
@@ -184,7 +181,7 @@ export default function App() {
               <div className="p-1.5 bg-indigo-50 text-indigo-600 rounded-lg">
                 <User className="w-5 h-5" />
               </div>
-              <h2 className="text-xl font-bold text-slate-900">Ringkasan Profil (Professional Summary)</h2>
+              <h2 className="text-xl font-bold text-slate-900">Ringkasan Profil</h2>
             </div>
             
             <div className="space-y-4 text-slate-600 leading-relaxed text-sm md:text-base">
@@ -206,7 +203,7 @@ export default function App() {
               <div className="p-1.5 bg-indigo-50 text-indigo-600 rounded-lg">
                 <Cpu className="w-5 h-5" />
               </div>
-              <h2 className="text-xl font-bold text-slate-900">Area Keahlian (Core Expertise)</h2>
+              <h2 className="text-xl font-bold text-slate-900">Keahlian</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -262,7 +259,7 @@ export default function App() {
               <div className="p-1.5 bg-indigo-50 text-indigo-600 rounded-lg">
                 <Briefcase className="w-5 h-5" />
               </div>
-              <h2 className="text-xl font-bold text-slate-900">Rekam Jejak Proyek (Key Projects)</h2>
+              <h2 className="text-xl font-bold text-slate-900">Rekam Jejak Proyek</h2>
             </div>
 
             <div className="space-y-6">
