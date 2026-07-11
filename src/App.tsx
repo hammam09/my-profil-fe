@@ -88,8 +88,8 @@ export default function App() {
       category: 'Personal Task Management',
       desc: 'Aplikasi ToDoList yang mempermudah kamu dalam mengatur kegiatan sehari-hari.',
       tech: ['React', 'Tailwind CSS', 'State Management', 'Advanced Filter'],
-      link: 'https://tabel-data-siswa.netlify.app/',
-      impact: 'Mempercepat pencarian dan pengolahan data administratif siswa, mereduksi waktu rekapitulasi manual secara signifikan dengan tingkat akurasi filter 100%.'
+      link: 'https://hamtodolist.netlify.app/',
+      impact: 'Membuat perencanaan kegiatan sehari-hari menjadi lebih terstruktur dan efisien dengan fitur pengelolaan tugas berbasis web yang responsif.'
     },
     {
       id: 'proj-5',
