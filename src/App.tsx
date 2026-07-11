@@ -84,10 +84,10 @@ export default function App() {
     },
     {
       id: 'proj-4',
-      title: 'Table Manajer',
-      category: 'Real-time Data Dashboard',
-      desc: 'Sistem dashboard manajemen dan rekapitulasi data siswa secara real-time yang dilengkapi dengan sistem penyaringan (filtering) data tingkat lanjut untuk administrasi yang ringkas.',
-      tech: ['React.js', 'Tailwind CSS', 'State Management', 'Advanced Filter'],
+      title: 'ToDoList',
+      category: 'Personal Task Management',
+      desc: 'Aplikasi ToDoList yang mempermudah kamu dalam mengatur kegiatan sehari-hari.',
+      tech: ['React', 'Tailwind CSS', 'State Management', 'Advanced Filter'],
       link: 'https://tabel-data-siswa.netlify.app/',
       impact: 'Mempercepat pencarian dan pengolahan data administratif siswa, mereduksi waktu rekapitulasi manual secara signifikan dengan tingkat akurasi filter 100%.'
     },
