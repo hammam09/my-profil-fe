@@ -442,7 +442,7 @@ export default function App() {
                       }`}
                     >
                       <Mail className="w-3.5 h-3.5 text-amber-500" />
-                      Email Resmi
+                      Email
                     </button>
                   </div>
                 </div>
