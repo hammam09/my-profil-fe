@@ -118,8 +118,8 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
             <div>
-              <span className="font-bold text-slate-900 tracking-tight text-base block">Hammam</span>
-              <span className="text-xs text-indigo-600 font-semibold block -mt-0.5">Web Developer</span>
+              <span className="font-bold text-slate-900 tracking-tight text-base block">Portofolio</span>
+              {/* <span className="text-xs text-indigo-600 font-semibold block -mt-0.5"></span> */}
             </div>
           </div>
 
@@ -143,27 +143,27 @@ export default function App() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center gap-1.5 bg-indigo-50 text-indigo-700 text-xs px-3 py-1.5 rounded-full font-semibold border border-indigo-100/60 mb-6">
             <Sparkles className="w-3.5 h-3.5 text-indigo-500" />
-            <span>Portofolio & Resume Generator</span>
+            <span>Portofolio & Resume</span>
           </div>
 
           <h1 id="hero-title" className="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight max-w-4xl mx-auto leading-[1.1] mb-6">
-            Hadirkan Ide Digital Menjadi <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-indigo-500 to-purple-600">Antarmuka Premium</span>
+            Hammam<br></br><span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-indigo-500 to-purple-600">Web Developer</span>
           </h1>
 
-          <p id="hero-subtitle" className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-8">
+          {/* <p id="hero-subtitle" className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-8">
             Saya adalah seorang <strong className="text-slate-900">Web Developer (Fresh Graduate)</strong> yang berdedikasi membangun aplikasi web modern, interaktif, dan responsif. Berfokus penuh pada keunggulan sisi <strong className="text-indigo-600">Frontend</strong> dengan sentuhan desain berkualitas tinggi.
-          </p>
+          </p> */}
 
           {/* Quick Tags / Traits */}
           <div id="hero-traits-grid" className="flex flex-wrap items-center justify-center gap-3 max-w-lg mx-auto">
             <span className="flex items-center gap-1 bg-white border border-slate-200 text-xs font-semibold px-3 py-1.5 rounded-lg text-slate-700 shadow-sm">
-              <Code className="w-3.5 h-3.5 text-indigo-500" /> Javascript Specialist
+              <Code className="w-3.5 h-3.5 text-indigo-500" /> Web Developer 
             </span>
             <span className="flex items-center gap-1 bg-white border border-slate-200 text-xs font-semibold px-3 py-1.5 rounded-lg text-slate-700 shadow-sm">
-              <Palette className="w-3.5 h-3.5 text-purple-500" /> Kepekaan Desain UI/UX
+              <Palette className="w-3.5 h-3.5 text-purple-500" /> Desain UI/UX
             </span>
             <span className="flex items-center gap-1 bg-white border border-slate-200 text-xs font-semibold px-3 py-1.5 rounded-lg text-slate-700 shadow-sm">
-              <Server className="w-3.5 h-3.5 text-emerald-500" /> Dasar Networking & Sistem
+              <Server className="w-3.5 h-3.5 text-emerald-500" /> Junior Networking
             </span>
           </div>
         </div>
