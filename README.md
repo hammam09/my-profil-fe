@@ -8,9 +8,9 @@ Meskipun berstatus sebagai lulusan baru, saya telah mendedikasikan waktu saya un
 ---
 
 ## 🛠️ Area Keahlian (Core Expertise)
-* **Frontend Development:** React, Tailwinds CSS
+* **Frontend Development:** HTML, CSS, Javascript
 * **IT Infrastructure:** Networking (Jaringan Komputer)
-* **Design & UI/UX:** Pembuatan aset visual, desain tata letak web yang estetis dan premium
+* **Design:** Design Logo, Design Poster, Design tata letak tampilan frontend
 * **Soft Skills:** Problem Solving, Pembelajar Cepat, Manajemen Waktu, Detail-Oriented
 
 ---
