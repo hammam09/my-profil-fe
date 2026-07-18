@@ -1,6 +1,8 @@
 {
   "name": "Hammam Portfolio",
-  "description": "Portofolio profesional dan profil web developer interaktif milik Hammam.",
+  "description": "Portofolio interaktif dan responsif dari Hammam, spesialis di bidang Networking, Junior Developer, dan UI/UX Design, dirancang khusus untuk HRD dan Tech Recruiter.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
