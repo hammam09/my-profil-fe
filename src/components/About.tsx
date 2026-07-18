@@ -41,7 +41,7 @@ export default function About() {
                   <Globe className="w-5 h-5" />
                 </div>
                 <div className="font-display font-bold text-sm text-zinc-800 dark:text-zinc-200">Networking</div>
-                <div className="font-sans text-xs text-zinc-500 dark:text-zinc-400 text-left">CCNA Training, RouterOS, VLAN Security.</div>
+                <div className="font-sans text-xs text-zinc-500 dark:text-zinc-400 text-left">MTCNA, RouterOS, VLAN Security.</div>
               </div>
 
               <div className="p-4 rounded-xl bg-zinc-50 dark:bg-zinc-900 border border-zinc-200/50 dark:border-zinc-800/50 flex flex-col items-start gap-2">
@@ -56,8 +56,8 @@ export default function About() {
                 <div className="p-2.5 rounded-lg bg-purple-500/10 text-purple-600 dark:bg-purple-500/20 dark:text-purple-400">
                   <Palette className="w-5 h-5" />
                 </div>
-                <div className="font-display font-bold text-sm text-zinc-800 dark:text-zinc-200">UI/UX Design</div>
-                <div className="font-sans text-xs text-zinc-500 dark:text-zinc-400 text-left">Figma systems, prototyping, high fidelity.</div>
+                <div className="font-display font-bold text-sm text-zinc-800 dark:text-zinc-200">Design</div>
+                <div className="font-sans text-xs text-zinc-500 dark:text-zinc-400 text-left">Canva, Photoshop, Prototyping.</div>
               </div>
             </div>
           </div>
