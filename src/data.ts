@@ -41,13 +41,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'dev-1',
-    title: 'DevFlow Task Kanban Board',
+    title: 'Weather-App',
     category: 'development',
-    description: 'Aplikasi manajemen tugas interaktif berbasis Kanban dengan fitur filter kategori, pelacakan waktu, drag-and-drop, serta penyimpanan data lokal otomatis.',
+    description: 'Aplikasi Cuaca yang terintegrasi dengan api, yang membuat senya realtime',
     image: devProjImg,
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    tags: ['HTML', 'CSS', 'JavaScript'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/hammam-dev/devflow-kanban',
+    githubUrl: 'https://github.com/hammam09/wheaterr-fe',
     highlights: [
       'Antarmuka kolaboratif dengan transisi kartu yang sangat halus menggunakan Framer Motion.',
       'Penyimpanan state persisten menggunakan LocalStorage browser.',
