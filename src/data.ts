@@ -49,10 +49,10 @@ export const PROJECTS: Project[] = [
     demoUrl: '#',
     githubUrl: 'https://github.com/hammam09/wheaterr-fe',
     highlights: [
-      'Antarmuka kolaboratif dengan transisi kartu yang sangat halus menggunakan Framer Motion.',
-      'Penyimpanan state persisten menggunakan LocalStorage browser.',
-      'Fitur filter multi-kategori untuk memisahkan tugas Networking, Dev, dan Design.',
-      'Tingkat responsivitas tinggi yang teruji optimal pada layar mobile dan desktop.'
+      'Menampilkan cuaca realtime dari berbagai kota.',
+      'Menampilkan data angin, suhu, kelembapan.',
+      'Menggunakan api openweather' ,
+      'Menampilkan jadwal solat',
     ]
   },
   {
