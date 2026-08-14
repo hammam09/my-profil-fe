@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import ExperienceCertifications from './components/ExperienceCertifications';
 import Contact from './components/Contact';
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [isDark, setIsDark] = useState<boolean>(() => {
