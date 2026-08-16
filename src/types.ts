@@ -1,9 +1,9 @@
-export type ProjectCategory = 'all' | 'networking' | 'development' | 'design';
+export type ProjectCategory = 'development'
 
 export interface Project {
   id: string;
   title: string;
-  category: 'networking' | 'development' | 'design';
+  category: 'development',
   description: string;
   image: string;
   tags: string[];

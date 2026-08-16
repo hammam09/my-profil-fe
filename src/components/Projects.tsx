@@ -4,20 +4,13 @@ import { PROJECTS } from '../data';
 import { Project, ProjectCategory } from '../types';
 
 export default function Projects() {
-  const [activeFilter, setActiveFilter] = useState<ProjectCategory>('all');
+  const [activeFilter, setActiveFilter] = useState<ProjectCategory>('development');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const filteredProjects = PROJECTS.filter((project) => {
-    if (activeFilter === 'all') return true;
+    if (activeFilter === 'development') return true;
     return project.category === activeFilter;
   });
-
-  const categories: { id: ProjectCategory; name: string }[] = [
-    { id: 'all', name: 'Semua Kategori' },
-    { id: 'networking', name: 'Networking' },
-    { id: 'development', name: 'Development' },
-    { id: 'design', name: 'Design' },
-  ];
 
   return (
     <section id="projects" className="py-24 bg-zinc-50 dark:bg-zinc-900/40 border-y border-zinc-200/50 dark:border-zinc-800/50">
@@ -30,26 +23,8 @@ export default function Projects() {
           </h2>
           <div className="w-16 h-1 mx-auto bg-cyan-500 rounded-full" />
           <p className="font-sans text-zinc-500 dark:text-zinc-400">
-            Berikut adalah proyek-proyek terpilih yang mewakili keahlian saya dalam merancang jaringan, menulis kode web, dan mendesain UI/UX.
+            Berikut adalah hasil projek yang pernah saya buat, dan projek ini akan terus bertambah seiring waktu.
           </p>
-        </div>
-
-        {/* Filter Buttons */}
-        <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-12">
-          {categories.map((cat) => (
-            <button
-              id={`filter-btn-${cat.id}`}
-              key={cat.id}
-              onClick={() => setActiveFilter(cat.id)}
-              className={`px-5 py-2.5 rounded-xl font-sans text-sm font-semibold tracking-wide transition-all duration-300 cursor-pointer ${
-                activeFilter === cat.id
-                  ? 'bg-cyan-500 text-black shadow-lg shadow-cyan-500/25 ring-2 ring-cyan-500/10'
-                  : 'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-800 hover:border-cyan-500/40 dark:hover:border-cyan-400/40'
-              }`}
-            >
-              {cat.name}
-            </button>
-          ))}
         </div>
 
         {/* Grid of Projects */}
@@ -93,7 +68,6 @@ export default function Projects() {
 
                 {/* Floating category badge */}
                 <span className={`absolute top-3 left-3 px-3 py-1 text-[10px] font-mono font-bold tracking-wider uppercase rounded-full shadow-md text-white ${
-                  project.category === 'networking' ? 'bg-cyan-600' :
                   project.category === 'development' ? 'bg-blue-600' : 'bg-purple-600'
                 }`}>
                   {project.category}
@@ -187,7 +161,6 @@ export default function Projects() {
                   <X className="w-5 h-5" />
                 </button>
                 <span className={`absolute bottom-4 left-4 px-3 py-1 text-xs font-mono font-bold tracking-wider uppercase rounded-full text-white ${
-                  selectedProject.category === 'networking' ? 'bg-cyan-600' :
                   selectedProject.category === 'development' ? 'bg-blue-600' : 'bg-purple-600'
                 }`}>
                   {selectedProject.category}

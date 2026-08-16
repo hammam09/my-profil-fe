@@ -1,10 +1,9 @@
 import { Project, SkillGroup, Experience, Certification } from './types';
 
 // Import local generated images to ensure Vite bundles them correctly
-import avatarImg from './assets/images/hammam_profile_avatar_1784302595467.jpg';
-import netProjImg from './assets/images/networking_project_preview_1784302612305.jpg';
-import devProjImg from './assets/images/developer_project_preview_1784302657755.jpg';
-import desProjImg from './assets/images/design_project_preview_1784302675323.jpg';
+import avatarImg from './assets/images/ChatGPT Image 7 Jun 2026, 00.18.41.png';
+import devProjImg from './assets/images/Screenshot 2026-08-16 220247.png';
+import noteImg from './assets/images/Screenshot 2026-08-16 215858.png';
 
 export const PROFILE_INFO = {
   name: 'Hammam',
@@ -24,29 +23,13 @@ export const PROFILE_INFO = {
 
 export const PROJECTS: Project[] = [
   {
-    id: 'net-1',
-    title: 'HamNet Secure SOHO Topology',
-    category: 'networking',
-    description: 'Rancangan dan implementasi infrastruktur jaringan kantor kecil (SOHO) yang aman, dilengkapi dengan segmentasi VLAN, Firewall ACL, dan konfigurasi VPN.',
-    image: netProjImg,
-    tags: ['Cisco Packet Tracer', 'VLAN', 'Firewall ACL', 'Routing OSPF'],
-    demoUrl: '#',
-    githubUrl: 'https://github.com/hammam-dev/secure-soho',
-    highlights: [
-      'Segmentasi 4 VLAN berbeda untuk Departemen HRD, IT, Keuangan, dan Guest.',
-      'Konfigurasi Firewall Access Control Lists (ACL) untuk membatasi akses antar VLAN.',
-      'Implementasi Dynamic Routing OSPF untuk skalabilitas konektivitas antar cabang.',
-      'Penyediaan koneksi VPN IPSec aman untuk pekerja remote.'
-    ]
-  },
-  {
     id: 'dev-1',
     title: 'Weather-App',
     category: 'development',
     description: 'Aplikasi Cuaca yang terintegrasi dengan api, yang membuat senya realtime',
     image: devProjImg,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    demoUrl: '#',
+    demoUrl: 'https://hamweatherr.netlify.app/',
     githubUrl: 'https://github.com/hammam09/wheaterr-fe',
     highlights: [
       'Menampilkan cuaca realtime dari berbagai kota.',
@@ -56,53 +39,20 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'des-1',
-    title: 'NetDesign UI Component Library',
-    category: 'design',
-    description: 'Sistem desain UI/UX komprehensif di Figma yang dirancang khusus untuk dashboard monitoring jaringan komputer dan visualisasi topologi.',
-    image: desProjImg,
-    tags: ['Figma', 'UI/UX Design', 'Design System', 'Network Icons'],
-    demoUrl: 'https://figma.com',
-    githubUrl: '#',
-    highlights: [
-      'Menyediakan lebih dari 150+ komponen siap pakai (buttons, charts, network nodes, cards).',
-      'Dilengkapi dengan Mode Gelap (Dark Mode) bawaan dengan rasio kontras tinggi sesuai standar WCAG.',
-      'Ikon kustomisasi bertema jaringan komputer (router, switch, server, cloud).',
-      'Skema tata letak grid fleksibel untuk mempercepat proses prototyping dashboard IT.'
-    ]
-  },
-  {
-    id: 'net-2',
-    title: 'RouterOS Automation Script',
-    category: 'networking',
-    description: 'Skrip otomatisasi menggunakan Python untuk melakukan backup konfigurasi RouterOS Mikrotik berkala dan mengirim notifikasi status kesehatan ke Telegram.',
-    image: 'https://picsum.photos/seed/network-auto/800/600',
-    tags: ['Python', 'Mikrotik API', 'Telegram Bot', 'Cron Job'],
-    demoUrl: '#',
-    githubUrl: 'https://github.com/hammam-dev/routeros-backup-bot',
-    highlights: [
-      'Mengotomatiskan backup file (.backup & .rsc) dari 10+ router Mikrotik secara remote.',
-      'Pengiriman otomatis berkas enkripsi ke server backup terpusat via SFTP.',
-      'Notifikasi real-time ke grup Telegram jika terjadi kegagalan jaringan atau suhu CPU berlebih.',
-      'Log aktivitas terstruktur untuk audit kepatuhan keamanan berkala.'
-    ]
-  },
-  {
     id: 'dev-2',
-    title: 'Portofolio Engine Core',
+    title: 'Notes-App',
     category: 'development',
-    description: 'Generator situs portofolio statis bertenaga cepat yang membaca skema file JSON tunggal untuk menghasilkan halaman portofolio responsif.',
-    image: 'https://picsum.photos/seed/portfolio-dev/800/600',
-    tags: ['Vite', 'HTML5/CSS3', 'JavaScript ESM', 'SEO Friendly'],
-    demoUrl: '#',
-    githubUrl: 'https://github.com/hammam-dev/portfolio-engine',
+    description: 'Aplikasi catatan berbasis Web yang membantu kamu untuk mencatat hal penting dengan aman.',
+    image: noteImg,
+    tags: ['Express','React','PostgreSQL'],
+    demoUrl: 'https://hamnotes.lovable.app',
+    githubUrl: 'https://hamnotes.lovable.app',
     highlights: [
-      'Waktu muat halaman kurang dari 0.8 detik dengan skor performa Lighthouse 100%.',
-      'Mendukung kustomisasi tema tanpa perlu mengubah kode sumber inti.',
-      'Optimasi SEO on-page otomatis (structured data, OpenGraph tags, sitemap generator).',
-      'Terintegrasi mulus dengan hosting statis gratis seperti Vercel, Netlify, atau GitHub Pages.'
+    'Buat catatan mu kapanpun dan dimanapun',
+    'Aman dan terpercaya',
+    'Mudah digunakan',
     ]
-  }
+  },
 ];
 
 export const SKILL_GROUPS: SkillGroup[] = [
