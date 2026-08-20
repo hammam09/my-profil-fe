@@ -66,7 +66,7 @@ export default function Contact() {
           <div className="lg:col-span-5 space-y-8 text-left bg-zinc-50 dark:bg-zinc-900/40 p-6 sm:p-8 rounded-2xl border border-zinc-200/50 dark:border-zinc-800/60 shadow-sm">
             <div className="space-y-4">
               <h3 className="font-display text-xl font-bold text-zinc-950 dark:text-white">
-                Informasi Kontak Direct
+                Informasi Kontak
               </h3>
               <p className="font-sans text-sm text-zinc-500 dark:text-zinc-400">
                 Hubungi saya melalui saluran direct berikut atau gunakan formulir interaktif di sebelah kanan.
@@ -80,7 +80,7 @@ export default function Contact() {
                   <Mail className="w-5 h-5" />
                 </div>
                 <div className="space-y-1">
-                  <div className="font-display text-sm font-bold text-zinc-950 dark:text-white">Surel Resmi</div>
+                  <div className="font-display text-sm font-bold text-zinc-950 dark:text-white">Email</div>
                   <a href={`mailto:${PROFILE_INFO.email}`} className="font-mono text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 hover:text-blue-500 transition-colors block">
                     {PROFILE_INFO.email}
                   </a>
@@ -116,7 +116,7 @@ export default function Contact() {
 
             {/* Response speed badge */}
             <div className="p-4 bg-cyan-500/10 dark:bg-cyan-500/5 rounded-xl border border-cyan-500/20 text-center text-xs text-cyan-600 dark:text-cyan-400 font-mono font-bold tracking-wider">
-              ⚡ ESTIMASI BALASAN: &lt; 3 JAM (HARI KERJA)
+              ESTIMASI BALASAN: &lt; 1 JAM
             </div>
           </div>
 
@@ -175,7 +175,7 @@ export default function Contact() {
                         : 'bg-white dark:bg-zinc-950 text-zinc-600 dark:text-zinc-400 border-zinc-200 dark:border-zinc-800'
                     }`}
                   >
-                    <MessageSquare className="w-4 h-4" /> WhatsApp Direct
+                    <MessageSquare className="w-4 h-4" /> WhatsApp
                   </button>
                   <button
                     id="channel-toggle-mail"
@@ -187,7 +187,7 @@ export default function Contact() {
                         : 'bg-white dark:bg-zinc-950 text-zinc-600 dark:text-zinc-400 border-zinc-200 dark:border-zinc-800'
                     }`}
                   >
-                    <Mail className="w-4 h-4" /> Surel Client
+                    <Mail className="w-4 h-4" /> Email
                   </button>
                 </div>
               </div>
