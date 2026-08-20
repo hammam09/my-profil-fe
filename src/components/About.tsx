@@ -23,7 +23,7 @@ export default function About() {
           {/* Left Column - Story & Bio */}
           <div className="lg:col-span-7 space-y-6 text-left">
             <h3 className="font-display text-2xl font-bold text-zinc-800 dark:text-zinc-200">
-              Mengapa Memilih Generalis Spesialis (Hybrid Talent)?
+              Tentang Saya & Nilai Lebih Saya
             </h3>
             
             <p className="font-sans text-zinc-600 dark:text-zinc-400 leading-relaxed text-base sm:text-lg">
@@ -86,7 +86,7 @@ export default function About() {
                   {PROFILE_INFO.fullName}
                 </h4>
                 <p className="font-mono text-xs font-semibold text-cyan-600 dark:text-cyan-400 mb-4 tracking-wider uppercase">
-                  NetDevOps & Designer
+                  Digital Solutions Engineer
                 </p>
 
                 {/* Key metadata badges */}

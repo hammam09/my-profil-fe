@@ -110,7 +110,7 @@ export const EXPERIENCES: Experience[] = [
     company: 'PT Sakha Internasional',
     period: 'Mei 2025 -  Sep 2025',
     description: 'Menghitung Stok yang ada di gudang, Melakukan Pengecekan setiap loading dan unloading ',
-    category: 'networking'
+    category: 'general'
   },
   {
     id: 'exp-3',
@@ -118,33 +118,21 @@ export const EXPERIENCES: Experience[] = [
     company: 'SMK Al-Hadiid 1 Cileungsi',
     period: '2022 - 2025',
     description: 'Mempelajari Networking, Design, Mempelajari Dasar Programmer',
-    category: 'design'
+    category: 'networking'
   }
 ];
 
 export const CERTIFICATIONS: Certification[] = [
   {
     id: 'cert-1',
-    name: 'Cisco Certified Network Associate (CCNA 200-301) - Training Course',
-    issuer: 'Cisco Networking Academy',
-    year: '2025'
+    name: 'Dasar SQL',
+    issuer: 'SQL 101: Belajar SQL dari Nol',
+    year: '2021'
   },
   {
     id: 'cert-2',
-    name: 'Responsive Web Design Certification',
-    issuer: 'freeCodeCamp',
-    year: '2024'
-  },
-  {
-    id: 'cert-3',
-    name: 'MikroTik Certified Network Associate (MTCNA) Prep',
+    name: 'MikroTik Certified Network Associate (MTCNA)',
     issuer: 'ID-Networkers',
     year: '2024'
   },
-  {
-    id: 'cert-4',
-    name: 'Google UX Design Professional Certificate',
-    issuer: 'Coursera / Google',
-    year: '2023'
-  }
 ];
